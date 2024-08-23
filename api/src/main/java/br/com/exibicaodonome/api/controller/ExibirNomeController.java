@@ -13,6 +13,6 @@ public class ExibirNomeController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public String exibirNome(){
-        return "Kevin Kilmer A";
+        return "Kevin";
     }
 }
